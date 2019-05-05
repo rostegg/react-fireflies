@@ -2,9 +2,12 @@
   "name": "react-fireflies",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rostegg.github.io/react-fireflies",
   "dependencies": {
     "react": "^16.8.6",
+    "react-dat-gui": "^3.0.0",
     "react-dom": "^16.8.6",
+    "react-fps-stats": "^0.1.1",
     "react-scripts": "3.0.0"
   },
   "scripts": {
@@ -27,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
   }
 }
