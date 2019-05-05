@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,UACE,QAAW,CACX,SAAY,CACZ,cAAe,CACf,qBACF","file":"main.4ed8c0ca.chunk.css","sourcesContent":["html,body {\n  margin: 0px;\n  padding: 0px;\n  position: fixed;\n  background-color: black;\n}\n"]}

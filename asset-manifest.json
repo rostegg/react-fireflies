@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-fireflies/static/css/main.4ed8c0ca.chunk.css",
+    "main.js": "/react-fireflies/static/js/main.117cc66d.chunk.js",
+    "main.js.map": "/react-fireflies/static/js/main.117cc66d.chunk.js.map",
+    "runtime~main.js": "/react-fireflies/static/js/runtime~main.1227fc81.js",
+    "runtime~main.js.map": "/react-fireflies/static/js/runtime~main.1227fc81.js.map",
+    "static/css/2.9b17ae97.chunk.css": "/react-fireflies/static/css/2.9b17ae97.chunk.css",
+    "static/js/2.1deb380a.chunk.js": "/react-fireflies/static/js/2.1deb380a.chunk.js",
+    "static/js/2.1deb380a.chunk.js.map": "/react-fireflies/static/js/2.1deb380a.chunk.js.map",
+    "index.html": "/react-fireflies/index.html",
+    "precache-manifest.81c5f0f0f9ae4103e222250724d5f0d5.js": "/react-fireflies/precache-manifest.81c5f0f0f9ae4103e222250724d5f0d5.js",
+    "service-worker.js": "/react-fireflies/service-worker.js",
+    "static/css/2.9b17ae97.chunk.css.map": "/react-fireflies/static/css/2.9b17ae97.chunk.css.map",
+    "static/css/main.4ed8c0ca.chunk.css.map": "/react-fireflies/static/css/main.4ed8c0ca.chunk.css.map"
+  }
+}
