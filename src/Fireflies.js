@@ -4,7 +4,6 @@ import FPSStats from "react-fps-stats";
 import ParamsController from './ParamsController'
 
 class Firefly {
-
     constructor(canvasParams, settings){
         this.seed = Math.random() + .4; 
 
@@ -18,6 +17,7 @@ class Firefly {
         this.speed = settings.speed;  
         this.size = settings.differentSize ? settings.size*this.seed : settings.size;
         this.color = settings.color;
+        this.rgbColor = this.hexToRGB(this.color);
         this.isGradient = settings.isGradient;
         this.fadeSpeedRate= settings.fadeSpeedRate;
         this.randomFadeTime = settings.randomFadeTime;
@@ -35,10 +35,9 @@ class Firefly {
 
     buildGradientStyle(radius) {
         let style = this.context.createRadialGradient(this.x,this.y,0,this.x,this.y, radius*radius);
-        const rgbColor = this.hexToRGB(this.color);
-        style.addColorStop(0.0, `rgba(${rgbColor},1)`);
-        style.addColorStop(0.1, `rgba(${rgbColor},0.3)`);
-        style.addColorStop(1.0, `rgba(${rgbColor},0)`);
+        style.addColorStop(0.0, `rgba(${this.rgbColor},1)`);
+        style.addColorStop(0.1, `rgba(${this.rgbColor},0.3)`);
+        style.addColorStop(1.0, `rgba(${this.rgbColor},0)`);
         return style;
     }
 
@@ -63,6 +62,7 @@ class Firefly {
         this.speed = settings.speed;  
         this.size = settings.differentSize ? settings.size*this.seed : settings.size;
         this.color = settings.color;
+        this.rgbColor = this.hexToRGB(this.color);
         this.isGradient = settings.isGradient;
         this.fadeSpeedRate= settings.fadeSpeedRate;
         if (!settings.randomFadeTime)
@@ -94,7 +94,7 @@ const DEFAULT_SETTINGS = {
     randomFadeTime: true
 }
 
-class Fireflies extends Component{
+class Fireflies extends Component {
 
     static propTypes = {
         width: PropTypes.number,
