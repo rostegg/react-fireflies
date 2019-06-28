@@ -35,9 +35,21 @@ ReactDOM.render(<Fireflies />, document.getElementById('root'))
 | width                | PropTypes.number | window.innerWidth   | Canvas width                                 |
 | height               | PropTypes.number | window.innerHeight  | Canvas height                                |
 | updateInterval       | PropTypes.number | 15                  | Interval for update canvas (in ms)           |
-| settings             | PropTypes.object | [More](###settings) | [More](#settings)                            |
+| settings             | PropTypes.object | [More](#settings)   | [More](#settings)                            |
 | displayParamsChanger | PropTypes.bool   | true                | Enable/disable panel for manipulate settings |
 | displayFpsStats      | PropTypes.bool   | true                | Enable/disable panel for display FPS         |
 
 ### Settings
+Settings allow to manipulate fireflies particles on canvas.  
 
+| Name           | Value            | Default   | Description                                     |
+| ---------------|:----------------:| ---------:|------------------------------------------------:|
+| color          | Hex string       | "#FF9B00" | Fireflies color                                 |
+| size           | Number           | 4.7       | Firefly size                                    |
+| speed          | Number           | 0.1       | Firefly move speed                              |
+| blur           | Number           | 0         | Blur effect for canvas (affect FPS)             |
+| count          | Integer number   | 300       | Fireflies count                                 |
+| fadeSpeedRate  | Boolean          | 0.01      | Flashing intensity                              |
+| differentSize  | Boolean          | true      | Different size for all fireflies                |
+| isGradient     | Boolean          | true      | Graditent effect to draw a firefly (affect FPS) |
+| randomFadeTime | Boolean          | true      | Each firefly flashing at random time            |
