@@ -3,7 +3,7 @@ Just experiment with canvas 2d contex and particles, powered by React. ([Demo Li
 ## Run dev
 Project consists of two parts: 
 * `src` - contain main module
-* `example` - react-create-app for demo
+* `example` - create-react-app for demo
 
 1. Clone repository `git clone https://github.com/rostegg/react-fireflies.git`
 2. `cd react-fireflies && npm install && npm start`  
