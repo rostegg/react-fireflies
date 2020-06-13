@@ -28,9 +28,9 @@ class Firefly {
 
     move() {
         this.x += this.speed*Math.sin(this.dx);
-		this.y += this.speed*Math.sin(this.dy);
-		if (this.x > this.width || this.x < 0) this.dx *= -1;
-		if (this.y > this.height || this.y < 0) this.dy *= -1;
+		    this.y += this.speed*Math.sin(this.dy);
+		    if (this.x > this.width || this.x < 0) this.dx *= -1;
+		    if (this.y > this.height || this.y < 0) this.dy *= -1;
     }
 
     buildGradientStyle(radius) {
