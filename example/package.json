@@ -8,7 +8,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.0",
+    "react-scripts": "^5.0.1",
     "react-dat-gui": "^3.0.0",
     "react-fps-stats": "^0.1.1",
     "react-fireflies": "file:.."
